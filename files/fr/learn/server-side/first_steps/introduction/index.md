@@ -42,7 +42,7 @@ Une requête inclut _une URL_ pour identifier la ressource demandée, _une méth
 
 Les serveurs web attendent des requêtes du client, les traitent quand elles arrivent, et répondent au navigateur web avec une **réponse HTTP**. La réponse contient _un statut_ qui indique si la requête a pu être traitée avec succès ou non (exemple "HTTP/1.1 200 OK" pour indiquer le succès).
 
-Le corps de la réponse, si la requête réussit, contient alors la ressource demandée (comme une page HTML, une image, etc...), que le navigateur web peut alors afficher.
+Si la requête réussit, le corps de la réponse contient alors la ressource demandée (comme une page HTML, une image, etc...), que le navigateur web peut alors afficher.
 
 ### Sites statiques
 
@@ -107,7 +107,7 @@ Les utilisations les plus courantes et les plus bénéfiques de la programmation
 
 Imaginez combien de produits sont disponibles sur Amazon et combien de posts ont été écrits sur Facebook. Créer une page statique distincte pour chaque produit ou article serait totalement impossible.
 
-La programmation côté serveur nous permet plutôt de stocker l'information dans une base de données et de construire et retourner dynamiquement le HTML ainsi que d'autres types de fichiers (comme les PDF, images, etc.). Il est également possible de simplement retourner des données ({{glossary("JSON")}}, {{glossary("XML")}}, etc.) pour les afficher avec des frameworks côté client (cela réduit la charge de travail du serveur et la quantité de données qui doit être retournée).
+La programmation côté serveur nous permet donc de stocker l'information dans une base de données, de modifier le contenu et retourner dynamiquement le HTML ainsi que d'autres types de fichiers (comme les PDF, images, etc.). Il est également possible de simplement retourner des données ({{glossary("JSON")}}, {{glossary("XML")}}, etc.) pour les afficher avec des frameworks côté client (cela réduit la charge de travail du serveur et la quantité de données qui doit être retournée).
 
 Le serveur ne se limite pas à l'envoi d'informations à partir de bases de données, il peut retourner le résultat d'autres outils logiciels, ou les données de services de communication. Le contenu peut même être ciblé pour le type d'appareil client qui le reçoit.
 
